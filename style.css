@@ -663,11 +663,11 @@ footer {
     text-align: center;
   }
 
+
   .hero h1 {
-    font-size: clamp(56px, 17vw, 78px);
-    line-height: 1;
-    letter-spacing: 1px;
-    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .subtitle {
