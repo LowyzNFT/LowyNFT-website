@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>LowyzNFT</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script
+    type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <a class="small-logo" href="#home">
+      LOWYZ
+    </a>
+
+    <div class="social-links">
+      <a href="https://x.com/LowyzNFT" aria-label="X">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+
+      <a href="#" aria-label="Discord">
+        <i class="fa-brands fa-discord"></i>
+      </a>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-glow"></div>
+
+      <div class="model-area">
+
+        <model-viewer
+          id="lowyz-model"
+          src="models/lowyz.glb"
+          alt="Rotating Lowyz 3D character"
+
+          camera-controls
+          disable-zoom
+
+          auto-rotate
+          auto-rotate-delay="0"
+          rotation-per-second="-120deg"
+          orientation="90deg -90deg 0deg"
+
+          exposure="1.25"
+          shadow-intensity="0.65"
+          shadow-softness="0.8"
+
+          environment-image="neutral"
+
+          interaction-prompt="none">
+        </model-viewer>
+
+      </div>
+
+      <div class="hero-content">
+
+        <h1>LOWYZ</h1>
+
+        <p class="subtitle">
+          3D PIXEL-INSPIRED NFT COLLECTION
+        </p>
+
+        <div class="hero-buttons">
+
+          <div class="info-button">
+            <span class="button-icon">◇</span>
+            <span>4,444 SUPPLY</span>
+          </div>
+
+          <a class="info-button" href="#">
+            <span class="button-icon"><img src="images/opensea.png" alt="OpenSea" class="opensea-icon"></span>
+            <span>MINT ON OPENSEA</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="information-section">
+
+      <div class="information-grid">
+
+        <article class="information-card">
+
+          <div class="card-heading">
+            <div class="card-icon">?</div>
+            <h2>WHAT IS LOWYZNFT?</h2>
+          </div>
+
+          <p>
+            A collection of 4,444 unique 3D pixel-inspired
+            low-poly characters created in Blender.
+            Every NFT is generated from a wide variety of traits,
+            including backgrounds, heads, clothing, pants and shoes,
+            making every Lowyz completely unique.
+          </p>
+
+        </article>
+
+
+        <article class="information-card">
+
+          <div class="card-heading">
+            <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+            <h2>READY FOR OTHERSIDE</h2>
+          </div>
+
+          <p>
+           Every LowyzNFT can be downloaded as a fully rigged 3D character directly from our website. Each avatar preserves its unique appearance and is built with Otherside compatibility in mind. Holders will be able to use their Lowyz in supported metaverse experiences, with Otherside integration planned following the official approval process. Download options will be available after launch.
+          </p>
+
+        </article>
+
+      </div>
+<section class="download-section">
+
+    <h2>DOWNLOAD YOUR LOWYZ HERE</h2>
+
+    <div class="download-wrapper">
+
+        <button class="download-btn">
+            <i class="fa-solid fa-download"></i>
+            DOWNLOAD
+        </button>
+
+        <input
+            type="text"
+            class="nft-input"
+            placeholder="#NFT"
+        >
+
+    </div>
+
+    <div class="soon-text">
+        SOON
+    </div>
+
+</section>
+      <footer>
+        © 2026 LOWYZNFT
+      </footer>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
