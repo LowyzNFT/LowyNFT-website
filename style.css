@@ -703,6 +703,10 @@ footer {
     white-space: nowrap;
   }
 
+  .opensea-button span {
+    font-size: 14px;
+}
+
   .hero-buttons .info-button:last-child {
     font-size: clamp(12px, 3.5vw, 15px);
     letter-spacing: 1px;
